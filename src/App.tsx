@@ -238,12 +238,13 @@ function MenuSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true, margin: "-100px" }}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
+          className="text-center mb-12"
         >
-          <span className="font-script text-3xl text-primary mb-2 block">CARTA DE MERCADO</span>
-          <h2 className="font-display text-3xl md:text-5xl text-white mb-6 tracking-widest uppercase">Productos de Temporada</h2>
-          <p className="text-primary tracking-[0.3em] text-sm uppercase mb-8">Marzo 2026</p>
-          <div className="w-24 h-[1px] bg-primary mx-auto"></div>
+          <h2 className="font-display text-2xl md:text-3xl text-white mb-4 flex items-center justify-center gap-4">
+            <span className="text-primary">🍽️</span> CARTA DE MERCADO <span className="text-primary">🍽️</span>
+          </h2>
+          <p className="text-text-silver tracking-widest text-sm uppercase">Productos de Temporada - Marzo 2026</p>
+          <div className="w-16 h-[1px] bg-primary/50 mx-auto mt-6"></div>
         </motion.div>
 
         <div className="max-w-4xl mx-auto mb-24">
